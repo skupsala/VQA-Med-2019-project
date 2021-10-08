@@ -29,10 +29,10 @@ source ./venv/bin/active
 pip install -r requirements.txt
 ```
 
-Run the main script
+Start jupyter notebook
 ```bash
-python3 main.py
-# Should output something that is not full of errors ;)
+jupyter notebook
+# open notebooks/template and create copy of it with your own username
 ```
 
 If possible use black formatter for the python code - [here](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0) is a tutorial for setting it up.
