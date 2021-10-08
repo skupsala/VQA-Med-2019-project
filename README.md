@@ -27,6 +27,12 @@ python3 -m venv venv
 source ./venv/bin/active
 # Install required dependencies
 pip install -r requirements.txt
+# Update install tools for spacy
+pip install -U pip setuptools wheel
+# Install spacy
+pip install -U spacy
+# Download spacy corpus / model
+python -m spacy download en_core_web_sm
 ```
 
 Start jupyter notebook
