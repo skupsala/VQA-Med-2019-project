@@ -52,7 +52,9 @@ VQA-Med 2019 dataset introduced a set of radiology images and four main related 
 3. Plot for each case, the word occurrence frequency curve after ranking the tokens. Check whether a power-law distribution can be fitted or not by plotting the log-log curve. Explain the results.
 4. Now we would like to build a model for the Q/A system. Start with a simple string based matching process, imitating the example in Simple Question Answering (QA) Systems That Use Text Similarity Detection in Python - KDnuggets that uses string matching and naives Bayes’ classifier. You may notice that the system is quite limited but constitutes a good start. You may use one example in the validation test of the dataset to find out the type of outcome generated.
 5. Instead of using string matching, modify the script in 4) to use Tfidf vectorizer and other types of classifiers (random forest, decision tree). Test the program on the same test query you used in 4). Discuss the limitations and how you may improve the results.  
+
 Consider the query: “In What plane is this mammograph taken? Which part of the body does this represent, which modality and plane was used to take it and what abnormality is it seen in this image?”
+
 6. Create tokens after preprocessing the query (removing stop-words and lemmatization).
 7. Use the image id to refer to each Q/A pair, combine all categories to construct one line description for each image. Then create a matrix representation using the Boolean model and find the closest image to the query. 
 8. Construct the tf-idf matrix representation of all Q/A pairs. Compute the similarity between the query and the images descriptions using different metrics. 
