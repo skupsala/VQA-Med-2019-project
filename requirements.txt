@@ -27,6 +27,7 @@ ipython-genutils==0.2.0
 ipywidgets==7.6.5
 jedi==0.18.0
 Jinja2==3.0.2
+joblib==1.1.0
 jsonschema==4.0.0
 jupyter==1.0.0
 jupyter-client==7.0.6
@@ -75,6 +76,7 @@ QtPy==1.11.2
 rapidfuzz==1.6.2
 regex==2021.9.30
 requests==2.26.0
+scikit-learn==0.24.2
 scipy==1.5.4
 seaborn==0.11.2
 Send2Trash==1.8.0
@@ -86,6 +88,7 @@ srsly==2.4.1
 terminado==0.12.1
 testpath==0.5.0
 thinc==8.0.10
+threadpoolctl==3.0.0
 tomli==1.2.1
 tornado==6.1
 tqdm==4.62.3
