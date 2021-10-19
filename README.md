@@ -30,7 +30,7 @@ pip install -U pip setuptools wheel
 # Install spacy
 pip install -U spacy
 # Download spacy corpus / model
-python -m spacy download en_core_web_sm
+python -m spacy download en_core_web_md
 # Install nltk
 pip install nltk
 # Download nltk
