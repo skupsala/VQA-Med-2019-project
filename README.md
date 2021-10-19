@@ -25,14 +25,18 @@ Create virtual env
 python3 -m venv venv
 # Activate virtualenv
 source ./venv/bin/active
-# Install required dependencies
-pip install -r requirements.txt
 # Update install tools for spacy
 pip install -U pip setuptools wheel
 # Install spacy
 pip install -U spacy
 # Download spacy corpus / model
 python -m spacy download en_core_web_sm
+# Install nltk
+pip install nltk
+# Download nltk
+python -m nltk.downloader wordnet
+# Install required dependencies
+pip install jupyter pandas matplotlib seaborn numpy scikit-learn Levenshtein nltk spacy-wordnet
 ```
 
 Start jupyter notebook
