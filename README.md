@@ -2,6 +2,12 @@
 
 This is project work for the natural language processing and text mining course
 
+## Results
+
+Check out this [notebook](https://github.com/skupsala/VQA-Med-2019-project/blob/main/notebooks/analysis.ipynb)
+
+Project task definition has been given below. See "Project task description".
+
 ## Initial setup
 
 Create data directory and fetch the data
@@ -42,7 +48,7 @@ pip install jupyter pandas matplotlib seaborn numpy scikit-learn Levenshtein nlt
 Start jupyter notebook
 ```bash
 jupyter notebook
-# open notebooks/template and create copy of it with your own username
+# open notebooks/template.ipynb and create a copy of it with your own username or check the final analysis from the notebook notebooks/analysis.ipynb
 ```
 
 If possible use black formatter for the python code - [here](https://dev.to/adamlombard/how-to-use-the-black-python-code-formatter-in-vscode-3lo0) is a tutorial for setting it up.
